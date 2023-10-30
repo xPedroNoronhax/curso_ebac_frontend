@@ -42,7 +42,7 @@ function Grupo(nomeDoGrupo){
         _nomeDoGrupo = nomeDoGrupo
     }
 
-    this.Pertenco = function() {
+    this.PertencoGrupo = function() {
         console.log(this.nome + ' diz : Faço parte do grupo ' + this.getNomeDoGrupo())
     }
 }
@@ -58,6 +58,6 @@ heroi2.setNomeDoGrupo('Os Vingadores');
 heroi3.setNomeDoGrupo('Os Vingadores');
 
 console.log(heroi2.revelaId())
-console.log(heroi2.Pertenco())
+console.log(heroi2.PertencoGrupo())
 
 
